@@ -1,79 +1,98 @@
-checkout live:
+# 📝 BIT Blog
 
-https://bit-blog-lovat.vercel.app/
-#
-This is a simple React app that fetches data from API endpoint.
+A React blog application that displays posts and authors fetched from an API. Navigate through blog posts, view author information, and explore detailed author profiles with contact details and Google Maps integration.
 
+## 🚀 Live Demo
 
-# Getting Started with Create React App
+**🌐 [View Live Application](https://bit-blog-lovat.vercel.app/)**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## ✨ Features
 
+- Display blog posts with titles and content
+- Authors page with author listings (10 authors)
+- Individual author profiles with detailed information
+- Author contact details (email, phone, address)
+- Google Maps integration for author locations
+- Company information for authors
+- Navigation between posts, authors, and about pages
+- Clickable post titles for detailed views
+- Back navigation functionality
+- About page with blog information
 
-### `npm i`
-or
-### `npm install`
-In the project directory, you can run:
+## 🛠️ Technologies
 
-### `npm start`
+- **React.js** - Frontend framework
+- **JavaScript** - Programming language
+- **CSS3** - Styling
+- **Google Maps API** - Location mapping
+- **Vercel** - Deployment
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🏃‍♀️ Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/rada-ii/BIT-BLOG.git
+   cd BIT-BLOG
+   ```
 
-### `npm test`
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. **Start the development server**
+   ```bash
+   npm start
+   ```
 
-### `npm run build`
+4. **Open in browser:** `http://localhost:3000`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🎮 How to Use
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Home Page:** Browse through blog posts with titles and content
+2. **Authors Page:** View list of 10 authors with their names
+3. **Author Details:** Click on any author to view their profile including:
+   - Personal information and photo
+   - Contact details (email, phone)
+   - Address with Google Maps location
+   - Company information
+4. **Post Details:** Click on post titles to read full content
+5. **Navigation:** Use the navigation menu (Home | Authors | About)
+6. **Back Button:** Return to previous pages using Back navigation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🔧 Available Scripts
 
-### `npm run eject`
+- `npm start` - Runs the app in development mode
+- `npm test` - Launches the test runner
+- `npm run build` - Builds the app for production
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📁 Project Structure
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+BIT-BLOG/
+├── src/
+│   ├── components/     # React components
+│   ├── App.js          # Main app component
+│   └── index.js        # Entry point
+├── public/
+└── package.json
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🌟 Key Features
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Multi-page Navigation** - Home, Authors, About pages
+- **Author Management** - Detailed author profiles with contact info
+- **Google Maps Integration** - Author location mapping
+- **Post Management** - Blog post display and detailed views
+- **API Integration** - Dynamic content from external API
+- **Contact Information** - Email, phone, address details
+- **Company Data** - Author company information and slogans
+- **Responsive Design** - Clean interface across all pages
 
-## Learn More
+## 👩‍💻 Author
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Rada Ivankovic** - [GitHub](https://github.com/rada-ii) | [LinkedIn](https://www.linkedin.com/in/rada-ivankovic)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+*Built with React.js and API integration*
